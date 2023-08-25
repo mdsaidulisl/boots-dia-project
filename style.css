@@ -1,0 +1,187 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+body ,h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p{
+
+    padding: 0;
+    margin: 0;
+
+
+}
+img{
+    max-width: 100%;
+}
+/* headersection */
+
+.headersection {
+    padding: 10px 0;
+}
+
+.logo {
+    width: 70px;
+    margin-right: 35%;
+}
+.header-left-right{
+    margin-right: 20px;
+}
+
+/* herosection */
+
+.herosection{
+
+    background-color: #ddd;
+}
+.hero-text {
+    margin-top: 153px;
+}
+.batton button {
+    background-color: #8490ff;
+    margin-top: 30px;
+    color: #fff;
+    display: inline-block;
+}
+
+/* aboutsection */
+
+
+.about-text{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+ 
+/* persentpointe * */
+
+.persentpointe {
+    padding: 65px 0;
+    background-color: #8490ff;
+}
+
+/* economysection */
+
+.economysection{
+    padding: 50px 0;
+    background-color:#f9f9ff;
+
+}
+.economy-text h3 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.number {
+    background-color: #fafafa;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 50%;
+    margin-bottom: 13px;
+}
+.number p{
+    line-height: 264%;
+    font-size: 38px;
+}
+
+.myitem{
+   color: #5a5959;
+   font-size: 20px;
+}
+.ecobatton button {
+    border: 1px solid #8490ff;
+    display: inline-block;
+    margin: 30px 0;
+    padding: 8px 22px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 18px 2px #b3baf6;
+
+}
+.ecobatton button {
+    font-size: 20px; 
+    color:#6976eb ;
+    
+}
+.ecobatton button:hover {
+    
+    color: #6976eb;
+    
+}
+
+/* programsection */
+
+.programsection{
+    padding: 120px 0;
+}
+.program-img {
+    width: 38%;
+    position: relative;
+    top: -93px;
+    left: -76px;
+    display: inline-block;
+}
+
+.single-program {
+    background-color: #fff;
+    text-align: center;
+    height: 280px;
+    padding: 20px;
+    box-shadow: 4px 7px 15px #ddd;
+}
+.single-program h4{
+    margin-top: -40px;
+    margin-bottom: 10px;
+
+
+}
+.protext{
+    margin-top: -35px;
+    display: inline-block;
+}
+.probatton button{
+    background-color: #fff;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 1px 8px 25px #ddd;
+}
+
+ /* contactsection */
+
+ .contactsection{
+    padding: 60px 0;
+    background-color:#f9f9ff ;
+
+ }
+ .myform {
+    background-color: #fff;
+    padding: 59px;
+}
+.formbatto {
+    background-color: #17a2b8;
+    display: inline-block;
+    padding: 2px 4px;
+    border-radius: 7px;
+    border: 1px solid #17a2b8 ;
+    border-style: none;
+}
+
+.contact-text-right{
+    margin-top: 150px;
+    margin-left: 30px;
+   
+}
+
+/* footersection */
+
+.footersection {
+    background-color: black;
+    padding: 3px 0;
+}
+
+.footersection p {
+    font-size: 20px;
+    padding-top: 11px;
+    color: #fff;
+}
