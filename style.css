@@ -21,7 +21,7 @@ img{
 
 .logo {
     width: 70px;
-    margin-right: 35%;
+    margin-right: 20%;
 }
 .header-left-right{
     margin-right: 20px;
@@ -49,6 +49,10 @@ img{
 .about-text{
     margin-top: 50px;
     margin-left: 40px;
+}
+.card {
+  
+    height: 100%;
 }
 
  
@@ -184,4 +188,161 @@ img{
     font-size: 20px;
     padding-top: 11px;
     color: #fff;
+}
+
+/* ?responsiv css    */
+ 
+@media (max-width:1199px) {
+
+    .logo img {
+        max-width: 137%;
+    }
+    .about-text {
+        margin-top: 7px;
+        margin-left: 15px;
+    }
+  
+}
+@media (max-width:991px) {
+
+    img {
+        max-width: 100%;
+    }
+    .hero-text {
+        margin-top: 110px;
+    }
+    .about-text {
+        margin-top: -17px;
+        margin-left: 13px;
+    }
+    .card {
+  
+        height: 80%;
+    }
+    body{
+        width: 100%;
+      
+        max-width: 100%;
+    }
+    .myitem {
+       
+        font-size: 14px;
+        line-height: 3px;
+    }
+    .number p {
+        line-height: 239%;
+        font-size: 31px;
+    }
+    .number {
+       
+        width: 76px;
+        height: 75px;
+        margin-top: -7px;
+        margin-bottom: 10px;
+    }
+    .economy{
+        width: 33%;
+        height: auto;
+    }
+    .myform {
+       
+        padding: 13px;
+      
+    }
+}
+@media (max-width:767px) {
+
+    .about-text {
+        margin-top: -17px;
+        margin-left: 29px;
+        height: 100%;
+        width: 137%;
+    }
+    .card {
+        height: 72%;
+        margin-top: 27px;
+        width: 287px;
+  
+    }
+    .hero-text {
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .economy {
+        width: 50%;
+        height: auto;
+    }
+    .contact-text-right {
+        margin-top: 150px;
+        margin-left: 4px;
+    }
+    
+}
+
+@media (max-width:750px) {
+
+    .hero-text {
+        margin-top: 25px;
+    }
+    .btn.text-light {
+        margin-top: 0px;
+    }
+    .card {
+        height: 63%;
+        margin-top: 65px;
+        width: 284px;
+    }
+    .about-text {
+        margin-top: -17px;
+        margin-left: 29px;
+        height: 100%;
+        width: 100%;
+    }
+}
+@media (max-width:575px){
+
+    .card {
+        height: 100%;
+        margin-top: 65px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .about-text {
+        margin-top: 25px;
+        margin-left: 9px;
+        height: 100%;
+        width: 100%;
+     
+    }
+    .mb-4 {
+        margin-bottom: 0.5rem !important;
+    }
+    .batton {
+        margin-top: 11px;
+    }
+    .singleper {
+        width: 50%;
+    }
+    .economy {
+        width: 100%;
+        height: auto;
+    }
+    .myitem {
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .single-item h5{
+        font-size: 30px;
+    }
+    .contact-text-right {
+        margin-top: 54px;
+        margin-left: 22px;
+    }
+    
+    
+}
+@media (max-width:385px){
+    .singleper {
+        width: 100%;
+    }
 }
